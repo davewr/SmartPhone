@@ -60,9 +60,10 @@ SubjectActivityAverages
 ```
 
 The above tables can be used for plotting data or verifying data.
+
 ### Acknowledgement and Explanation of Data
 
-The following is extracted pr paraphrased from the original README.txt, the original Variables and Unit Information follows in a note:
+The following is extracted or paraphrased from the original README.txt, the original Variables and Unit Information follows in a note:
 
 The general explanation of the experiment is that: Each person performed six activities (WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
 
