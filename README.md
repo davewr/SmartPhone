@@ -1,9 +1,11 @@
 Smartphone Project
 ---
+
 Title: "README.md"
 author: "Dave Robinson"
 date: "Saturday, January 24, 2015"
 output: html_document
+
 ---
 
 The original README.txt that accompanied the data has been included in this archive as Original_README.txt. Please refer to it for any additional technical description of the original variables.
