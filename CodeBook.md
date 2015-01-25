@@ -173,6 +173,14 @@ Complete Information on the field names can be found in features.txt and feature
 
 SubjectActivityAverages is missing only the SeqID field as it is eliminated when the means or averages are calculated for the grouping of subject and activity.
 
+All sensor readings are numeric values.
+
+The angular velocity vectors measured by the gyroscope unitts are radians/second. 
+
+Accelerometer variables are measured in "gravities".
+
+SubjectID and SeqID are integers, activity is a factor with six levels -- derived from the original activities description file. (LAYING, SITTING, WALKING etc.)
+
 Final_Grouped Table fields (two per line separated by a space):
 
  [1] "SubjectID"                           "activity"                           

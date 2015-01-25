@@ -18,17 +18,55 @@ Create one R script called run_analysis.R that does the following.
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+###Running the Script
+Place the script in a directory along with the required data.
+
+Set the R working directory to match that of the script and the data.
+
+In the R console (Using either R or R Studio) type:
+
+source("run_analysis.R")
+
+Messages like the following will be printed:
+
+```
+
+[1] "Starting column name extraction..."
+
+[1] "Loading Activity File"
+
+[1] "Loading Training Subjects"
+
+[1] "Loading Test Subjects"
+
+[1] "Loading Test Files -- sensor data"
+
+[1] "Loading Training Files -- sensor data"
+
+[1] "Extracting only columns with Median or Standard Deviation measurements"
+
+[1] "Final groupings and output of ** SubjectActivityAverages.txt **"
+```
+
 ###Output
 The file "SubjectActivityAverages.txt" is produced with the requested averages for the second tidy data set.
 
+Two tables will be left in the work space for review if necessary:
 
+```
+Final_Grouped
+
+SubjectActivityAverages
+```
+
+The above tables can be used for plotting data or verifying data.
 ### Acknowledgement and Explanation of Data
 
 The following is extracted pr paraphrased from the original README.txt, the original Variables and Unit Information follows in a note:
 
 The general explanation of the experiment is that: Each person performed six activities (WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
 
-The sensor data was collected and processed via various algorithms to give some indication of how each person performed the above listed activities duiring the day. 
+The sensor data was collected and processed via various algorithms to give some indication of how each person performed the above listed activities during the day. 
 
 ###The dataset includes the following files:
 
@@ -52,7 +90,7 @@ The following files are available for the train and test data. Their description
 
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
-- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
+- 'train/Inertial Signals/total\_acc\_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
 
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 
@@ -66,7 +104,7 @@ The following files are available for the train and test data. Their description
 
 ### Data Sharing Notice
 
-Dat is from the following study and available at the linked location:
+Data is from the following study and available at the linked location:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ###License:
