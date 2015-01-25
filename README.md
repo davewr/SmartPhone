@@ -1,4 +1,4 @@
-Readme for Smartphone Project
+Smartphone Project
 ---
 Title: "README.md"
 author: "Dave Robinson"
